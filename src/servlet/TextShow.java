@@ -36,6 +36,7 @@ public class TextShow extends HttpServlet {
 		List<Student> stu=s.getstudent();
 		String st=JSON.toJSONString(stu);
 		System.out.println(st);
+		System.out.println("666666666");
 		out.println(st);
 		out.flush();
 		out.close();
